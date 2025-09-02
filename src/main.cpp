@@ -20,6 +20,11 @@ void loop() {
   Serial.println();
   delay(100);
 
+  int valeurRouge = (maLectureAnalogique * 255) / 4095;
+
+  pixelAtom = CRGB(valeurRouge, 0, 0);
+  FastLED.show();
+  
 
   /* 
   if (maLectureAnalogique > 4095 / 2) {
