@@ -21,6 +21,7 @@ void loop() {
   delay(100);
 
 
+  /* 
   if (maLectureAnalogique > 4095 / 2) {
     pixelAtom = CRGB(255,255,255); // BLANC
     FastLED.show();
@@ -30,7 +31,7 @@ void loop() {
     FastLED.show();
   }
 
- 
+ */
 
 
 
